@@ -17,3 +17,5 @@
 (define-key input-decode-map "\e[A" [S-up])
 (define-key input-decode-map "\e[F" [S-end])
 (define-key input-decode-map "\e[H" [S-home])
+
+(setq create-lockfiles nil)
